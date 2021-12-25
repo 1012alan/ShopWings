@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+    <title>ShopWings</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<style type="text/css">
+   #navbar{
+       background-color: rgb(195, 226, 108);
+       text-align: center;
+       padding:2% ;
+       z-index: 2;
+       top: 0%;
+       width: 95vw;
+       height: 2vw;
+       position: fixed;
+       font-size: 1.5vw;
+       border-radius: 115rem;
+    }
+
+    #footer{
+       background-color: rgb(195, 226, 108);
+       text-align: center;
+       margin-top: 3vw;
+       width: 50vw;
+    }
+
+    a:hover{
+        font-size: 1.1em;
+        text-decoration: none;
+        color: red;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+   
+   
+           body{
+           background-image:url(4.jpeg);
+           background-size: cover;
+           background-attachment: fixed; 
+        }
+   
+         p{
+               margin: 0;
+        }
+
+         .content{
+             background-color: white;
+              padding: 3vw;
+             font-size: 1.2vw;
+             width: 50vw;
+              height:fit-content;
+              margin: 8vw auto;      
+        }  
+
+        .moto{
+            display: grid;
+            place-items: center;
+             position: relative;
+            font-style: italic;
+            background-color: pink;
+            border-radius: 2em;
+            animation-name: name;
+            animation-duration: 2s;
+            margin-top: -1rem;
+            padding: 0;
+            z-index: 1; 
+        }
+
+        .logo{
+            place-content: left;
+            left: 0%;
+            height: 6vw;
+             width: 10%;
+            top: 0%;
+            position: fixed;
+            z-index: 3;
+       }
+
+    
+
+         @keyframes name {
+            from {background-color: red;}
+            to {background-color: yellow;
+                font-size: 2vw;
+                 text-decoration: underline;
+                 font-weight: bold;
+                 border: orange 0.5vw solid;
+            }
+       } 
+
+         .border img{
+        transition: 0.1s ease;
+       }
+
+        .border img:hover{
+           box-shadow: 0 0 0 5px #000000;
+           transition: 2s ease;
+       }
+
+       .card{
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+           transition: 0.3s;
+           width: 25vw;
+           height: fit-content;
+           text-align: center;
+           margin-right: 2rem;
+           border-radius: 3%;
+           
+          }
+           .card1{
+           box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+           transition: 0.3s;
+           width: 25vw;
+           height: fit-content;
+           text-align: center;
+           margin-bottom: 10%;
+           margin-left: 25%;
+           border-radius: 50vw;
+           padding-top: 5vw;
+           place-items: center;
+          
+          }
+
+        .card1 img{
+
+          size: 50%;
+
+         }
+
+       .container{
+         padding: 0.5rem;
+         background-color: pink;
+         margin-top: 2rem;
+                          
+       }
+
+
+       .cards{
+           display: flex;
+           flex-direction: row;
+           
+       }
+       
+       .card:hover{
+           transform: translate3D(0,-2px,0) scale(1.1);
+       }
+       
+       
+       .card1:hover{
+           transform: translate3D(0,-2px,0) scale(1.1);
+       }
+       
+       
+       </style>    
+
+</head>
+<body>
+
+  <div>
+    <a name="top"></a>
+  </div>
+
+<div id="navbar">
+ 
+    <a href="#Intro_page">|| Introduction || </a>
+    <a href="#Future_Items">Launching Soon || </a>
+    <a href="#Surprise_Section">Surprises || </a>
+    <a href="#Most_brought_items">Frequently purchased || </a>
+    <a href="#Reviews">Customer Reviews || </a>
+    <a href="#Review_from_new_user">Add a Review || </a>
+    <a href="https://www.google.com/covid19/#support-&-aid" target="blank"><strong><em>COVID advisory page ||</em></strong><br></a>
+   
+</div>
+ 
+<div>
+    <img class="logo" src="logo.jpeg" alt="logo">
+</div>
+
+ 
+
+<div class="content">
+    <div class="Introduction">
+       <a name="Intro_page"></a>
+       <div class="moto">
+
+        <p>ShopWings</p> - gives you wings to shop around the globe</h4>
+    
+     </div>   
+       <h1><u>Introduction</u></h1>
+       <p>We at ShopWings offer you a hassle free experience to shop online. As the name suggests we give you wings to shop online across the globe. Shopping online with us has quite a few benefits during the COVID-19 pandemic when in-person shopping is either limited or nearly impossible.
+           <ul>
+               <li>Ability to shop at any time</li>
+               <li>No long lines at checkouts</li>
+               <li>Packages delivered at your door step</li>
+               <li>Receive discount and sale notifications</li>
+           </ul>
+           <a href="#Surprise_Section">
+            <button class="Surprises"> Surprises </button>
+           </a>
+    </div>
+
+  
+  
+    <div class="Launching_Soon...">
+       <a name="Future_Items"></a>
+       <h1><u>Launching soon</u></h1>
+       <div class="border">
+          <img src="chat.jpeg" height="20%" width="30%" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src="track.jpeg" height="20%" width="40%" align="right">
+          <h4>Discription:</h4>
+          <p>We will be soon lauching the most awaited features that is LIVE TRACKING- you will be able to track live your product when it will be out for delivery. CHAT SUPPORT- Now your queries will get resolved more efficiently and 24x7.</p>
+       </div>
+    </div>
+
+  
+  
+    <div class="Surprises">
+       <a name="Surprise_Section"></a>
+       <h1><u>Surprise!</u>- Find what awaits for you</h1>
+       <div class="cards">
+       <div class="card">
+           <img src="iphone.png" alt="iphone" width="100vw">
+           <div class="container">
+               <h3>Iphone 13</h3>
+               <p>Brand: Apple</p>
+               <p>Available at: Rs. <strike>81,000</strike> 55,000</p>
+           </div>
+       </div>
+       
+       <div class="card">
+           <img src="washing.png" alt="washing machine" width="100vw">
+           <div class="container">
+               <h3>Washing Machine</h3>
+               <p>Brand: Philips</p>
+               <p>Available at: Rs. <strike>45,000</strike> 30,000</p>
+           </div>
+       </div>
+       </div>
+
+
+    <div class="Frequently_purchased">
+       <a name="Most_brought_items"></a>
+       <h1><strong><u>Frequently Purchased</u></strong></h1>
+          <div class1="cards">
+           <div class="card1">
+              <img src="head phones.jfif" alt="head phones" width="100vw" >
+                 <div class="container">
+                   <h3>head phones</h3>
+                   <p>Rating: 4star</p>
+                 </div>
+            </div>
+
+            <div class="card1">
+                <img src="dryer.jfif" alt="dryer" width="100vw" >
+                   <div class="container">
+                     <h3>dryer</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="blanket.jfif" alt="blanket" width="100vw" >
+                   <div class="container">
+                     <h3>blanket</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="coat.jfif" alt="coat" width="100vw" >
+                   <div class="container">
+                     <h3>coat</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="heater.jfif" alt="heater" width="100vw" >
+                   <div class="container">
+                     <h3>heater</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="induction.jfif" alt="induction stove" width="100vw" >
+                   <div class="container">
+                     <h3>induction stove</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="laptop.jfif" alt="laptop" width="100vw" >
+                   <div class="container">
+                     <h3>laptop</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="mattress.jfif" alt="mattress" width="100vw" >
+                   <div class="container">
+                     <h3>Washing mattress</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="thermocot.jpg" alt="thermocot" width="100vw" >
+                   <div class="container">
+                     <h3>thermocot</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+
+              <div class="card1">
+                <img src="tv.jfif" alt="tv" width="100vw" >
+                   <div class="container">
+                     <h3>tv</h3>
+                     <p>Rating: 4star</p>
+                   </div>
+              </div>
+            </div>  
+    </div>
+
+    <div class="Customer_Reviews">
+       <a name="Reviews"></a>
+       <h1>Customer Reviews</h1>
+    </div>
+
+    <div class="Add_a_review">
+       <a name="Review_from_new_user"></a>
+       <h1>Add a review</h1>
+       <form action=""> 
+        
+        <textarea placeholder="Type Here..."></textarea>
+        <p></p>
+        <p></p>
+        <input type="submit" value="Finish"/>
+  
+      </form>
+      <p>
+        <h1></h1>
+        <h1></h1>
+        <a href="#top">Back to top</a>
+      </p>
+    
+    </div>   
+    <div id="footer">
+      <h1></h1>
+         <a href="https://example.com" target="blank"><strong><em>|| Terms and conditions ||</em></strong><br></a>
+      
+     </div>
+</div>
+
+
+
+</body>
+</html>
